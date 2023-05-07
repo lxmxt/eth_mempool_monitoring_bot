@@ -3,7 +3,7 @@ from web3 import Web3
 from web3.exceptions import TransactionNotFound
 
 # Replace the following with your own Ethereum node's URL (e.g., Infura)
-eth_node_url = "https://mainnet.infura.io/v3/aa7b781e38434d9289983fc70362a40a"
+eth_node_url = "https://mainnet.infura.io/v3/"
 
 # Connect to the Ethereum node
 w3 = Web3(Web3.HTTPProvider(eth_node_url))
